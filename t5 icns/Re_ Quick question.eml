@@ -1,0 +1,630 @@
+Delivered-To: shullianproductions@gmail.com
+Received: by 10.142.81.17 with SMTP id e17cs38856wfb;
+        Sat, 23 Oct 2010 15:08:29 -0700 (PDT)
+Received: by 10.42.16.6 with SMTP id n6mr3508540ica.472.1287871708526;
+        Sat, 23 Oct 2010 15:08:28 -0700 (PDT)
+Return-Path: <byteful@gmail.com>
+Received: from mail-iw0-f171.google.com (mail-iw0-f171.google.com [209.85.214.171])
+        by mx.google.com with ESMTP id u6si11796746ibk.60.2010.10.23.15.08.27;
+        Sat, 23 Oct 2010 15:08:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of byteful@gmail.com designates 209.85.214.171 as permitted sender) client-ip=209.85.214.171;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of byteful@gmail.com designates 209.85.214.171 as permitted sender) smtp.mail=byteful@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by mail-iw0-f171.google.com with SMTP id 35so1762997iwn.2
+        for <shullianproductions@gmail.com>; Sat, 23 Oct 2010 15:08:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:from:to
+         :in-reply-to:content-type:mime-version:subject:date:references
+         :x-mailer;
+        bh=6dhAS54urMn0FajgZUfE/sQvpWC8a8NDQk7NOKLG82g=;
+        b=SuTTCJdmizzKrb4b6A/scd+vodCQC49yLfWQlBysxQ8q91YMb5goZXkQpa/7aSIYF1
+         fveXAZOVe9MaaFp1oLAUIzRT6WlQvCkt9Wn6Vi1cqk13q+I3U07IKIgB7P7uAjMO6LfM
+         p0CtJN8H+iQd/x/MgYvfxkWKz253v0RmqOwks=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:from:to:in-reply-to:content-type:mime-version:subject
+         :date:references:x-mailer;
+        b=kl6EAW9nfnWhHrEA66mnd00tld07+NuZZ2//jACH37+N2JIHZF61Y5Rv0Rsr+8wlRv
+         ntUcNnuD39V0i0Mxv0+UwToNd/bB5hmeJcwcGW/m7diKZQpQMB1uuFQwQXjmgcY77BRA
+         H78Uita4WtmRkJowk+Nmbrw824p50t5Ia04Cc=
+Received: by 10.231.145.142 with SMTP id d14mr4179442ibv.100.1287871706262;
+        Sat, 23 Oct 2010 15:08:26 -0700 (PDT)
+Return-Path: <byteful@gmail.com>
+Received: from [192.168.1.100] (71-13-170-22.dhcp.fdul.wi.charter.com [71.13.170.22])
+        by mx.google.com with ESMTPS id in12sm5397391ibb.21.2010.10.23.15.08.23
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 23 Oct 2010 15:08:24 -0700 (PDT)
+Message-Id: <D21C7991-708D-4368-BF86-02A34BC3DA73@gmail.com>
+From: Byteful Travel <byteful@gmail.com>
+To: Chris J. Shull <shullianproductions@gmail.com>
+In-Reply-To: <4AF152FE-9373-4A18-91F2-485DBD7D10D8@gmail.com>
+Content-Type: multipart/alternative; boundary=Apple-Mail-2-326856608
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: Quick question
+Date: Sat, 23 Oct 2010 17:08:21 -0500
+References: <48980C94-7B7B-46FB-B5CF-1ED5B2A9621B@gmail.com> <B4821A0F-F5F6-4053-B4AA-22B2CA7DE25D@gmail.com> <BF52A175-A93B-4EA1-9EB0-DDE483EB6691@gmail.com> <0417E933-3B12-487A-ABC1-70C770EA8C3E@gmail.com> <81D7959E-B40E-4334-ABA8-629F85C55BD7@gmail.com> <D7A4EB25-BFCF-483D-8A98-1EDB908A9B27@gmail.com> <4AF152FE-9373-4A18-91F2-485DBD7D10D8@gmail.com>
+X-Mailer: Apple Mail (2.936)
+
+
+--Apple-Mail-2-326856608
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+Hey Chris,
+
+See? My steadfastness paid off. :)
+
+Looks like a win/win situation.
+You can link to http://byteful.com/blog/ and list the credit as  
+Byteful Travel, yep.
+
+Hey also, I just had an idea. What if you made a menubar menu that  
+showed the lyrics of the song inside menu itself when you clicked it?  
+Or maybe just a button in the menubar that toggled the lyric window.
+
+
+
+best,
+//> BT
+Creator of Byteful Travel featuring: Free travel advice,
+creative commons travel photography, and travel video resources.
+Come with me and see Earth's amazing tapestry of life and culture!
+
+Twitter:     @Bytefulcom
+Web: http://Byteful.com/blog/
+
+On 2010 Oct 21, at 19.15, Chris J. Shull wrote:
+
+> Oh yeah, very nice.
+> Now I just got to get my act together and put some features/fixes  
+> into a new version :)
+>
+> Do you want your credit listed as "Byteful Travel" (linking to http://byteful.com/) 
+> , or something else?
+>
+> ~Chris
+>
+> On Oct 21, 2010, at 7:56 PM, Byteful Travel wrote:
+>
+>> Good call. I've tweaked the 128x128 icon.
+>>
+>> The trick with the width on these strings is that it's a tricky  
+>> balance, if I make them too thick, they'll look too heavy, but if i  
+>> make them too thin, they'll disappear when the app resizes the 128  
+>> like it does here:
+>>
+>> <pastedGraphic.png>
+>>
+>> That's the new version, and I think it's the optimal balance.
+>>
+>>
+>> <GLyrics-T4B.icns.zip>
+>>
+>>
+>>
+>>
+>> best,
+>> //> BT
+>> Creator of Byteful Travel featuring: Free travel advice,
+>> creative commons travel photography, and travel video resources.
+>> Come with me and see Earth's amazing tapestry of life and culture!
+>>
+>> Twitter:     @Bytefulcom
+>> Web: http://Byteful.com/blog/
+>>
+>> On 2010 Oct 17, at 21.03, Chris J. Shull wrote:
+>>
+>>> Love it. However, how does it look if the "strings" n this on are  
+>>> a tad more slender:
+>>> <PastedGraphic-4.png>
+>>>
+>>> There transition between these two in the Icon Composer preview is  
+>>> just a bit jarring:
+>>> <PastedGraphic-5.png><PastedGraphic-6.png>
+>>>
+>>> ~Chris
+>>>
+>>> On Oct 17, 2010, at 4:25 PM, Byteful Travel wrote:
+>>>
+>>>> Hey Chris,
+>>>>
+>>>>
+>>>> Persistent? Yes, I suppose you could describe me that way. In any  
+>>>> case, I don't like to give up on a project that I know I could be  
+>>>> of help on. :)
+>>>>
+>>>> I finally got some time to work on the GL icon over the last few  
+>>>> days, and I gotta say, making it a round icon was a great idea.  
+>>>> Thanks for suggesting that! I agree about the scaling issues, and  
+>>>> I've worked really hard on this version to make sure that this  
+>>>> icon is completely optimized for 512, 128, 32, and 16x16 sizes. I  
+>>>> think you'll be pleasantly surprised.
+>>>>
+>>>> I've taken into account all of your suggestions, and I've also  
+>>>> included both black and white version of a menubar icon (white  
+>>>> for when you click on it).
+>>>>
+>>>>
+>>>> I've attached an archive containing the icns file and both  
+>>>> menubar graphic png images to this email. Let me know what you  
+>>>> think.
+>>>>
+>>>> I suspect you'll like version Theta4  (this version) of the icon.
+>>>>
+>>>>
+>>>> <GL-T4-and-Menubar-icons.zip>
+>>>>
+>>>>
+>>>>
+>>>> best,
+>>>> //> BT
+>>>> Creator of Byteful Travel featuring: Free travel advice,
+>>>> creative commons travel photography, and travel video resources.
+>>>> Come with me and see Earth's amazing tapestry of life and culture!
+>>>>
+>>>> Twitter:     @Bytefulcom
+>>>> Web: http://Byteful.com/blog/
+>>>>
+>>>> On 2010 Oct 02, at 20.40, Chris J. Shull wrote:
+>>>>
+>>>>> Well aren't you persistent. I have to say, with the recent  
+>>>>> change in the iTunes icon to something more iPhone-esque, your  
+>>>>> design might actually fit in pretty well.
+>>>>> I also like this one better than the previous.
+>>>>>
+>>>>> Couple of comments:
+>>>>> 1) there is a scaling issue at smaller sizes. If you aren't  
+>>>>> already, stink the icon in Icon Composer (part of the apple dev  
+>>>>> tools). There is a panel where you can preview the icon as it  
+>>>>> scales (and the transitions between the different seed images).
+>>>>> <PastedGraphic-6.tiff>
+>>>>>
+>>>>> Take a look at the icons for NetNewsWire and Plex icons  
+>>>>> (bellow). These icons obviously haven't just scaled down their  
+>>>>> artwork; they've made new artwork which mimics the large, but is  
+>>>>> clearer in the small format. Maybe something like this?
+>>>>> <PastedGraphic-10.tiff>
+>>>>>
+>>>>> 2) Maybe a thicker outer border?
+>>>>> 3) Maybe utilize more of the available space (less transparent  
+>>>>> padding?
+>>>>> 4) Maybe in a circle? (Yes, like iTunes)
+>>>>> 5) When I look very closely I'm not a fan of the diagonal  
+>>>>> luminescence. Perhaps something more ambiguous.
+>>>>>
+>>>>> It obviously needs to be visually distinct, but also look  
+>>>>> "right" if you put it in the dock next to iTunes. It's close,  
+>>>>> but not quite IMO:
+>>>>> <PastedGraphic-12.png>
+>>>>>
+>>>>> Oh, and it would be nice, if I ever add a menu bar option to  
+>>>>> have a black and alpha version suitable to go up there (to be  
+>>>>> clear: e.g. next to wifi, volume, time and Spotlight).
+>>>>> At that point I'd think just the lyre would be clearest - no  
+>>>>> outer box. Maybe.
+>>>>>
+>>>>> ~Chris
+>>>>>
+>>>>>
+>>>>> <PastedGraphic-8.png>
+>>>>> <PastedGraphic-9.png>
+>>>>>
+>>>>>
+>>>>> On Oct 2, 2010, at 8:50 PM, Byteful Travel wrote:
+>>>>>
+>>>>>> Hello Chris,
+>>>>>>
+>>>>>>
+>>>>>> I can only assume from your lack of response to my last email  
+>>>>>> that you're either very very busy, or don't like my work on the  
+>>>>>> the Get Lyrical icon at all.
+>>>>>>
+>>>>>> Since I just recently finished an update to my own site, I  
+>>>>>> thought I'd apply some of the lessons I learned to the GL icon  
+>>>>>> I've been working on, and I came up with this:
+>>>>>>
+>>>>>>
+>>>>>> <pastedGraphic.png>
+>>>>>>
+>>>>>>
+>>>>>> I have put a considerable amount of hours into the icon by now,  
+>>>>>> and this version is my favorite so far.
+>>>>>>
+>>>>>> Here's a full resolution 512x512 icns icon of it:
+>>>>>> <GLyrics-Z4.icns.zip>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> What do you think?
+>>>>>> Even if you had nothing positive to say about it, I would very  
+>>>>>> much appreciate some constructive criticism on it.
+>>>>>>
+>>>>>>
+>>>>>> thanks!,
+>>>>>> BT
+>>>>>>
+>>>>>> @bytefulcom
+>>>>>> http://byteful.com
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> Begin forwarded message:
+>>>>>>
+>>>>>>> From: Byteful Travel <byteful@gmail.com>
+>>>>>>> Date: 2010 Jul 29, Thu 13.18.36
+>>>>>>> To: "Chris J. Shull" <ShullianProductions@gmail.com>
+>>>>>>> Subject: The GL Lyre icon
+>>>>>>>
+>>>>>>> Hi Chris!
+>>>>>>>
+>>>>>>>
+>>>>>>> So I was playing around with the GL icon again, and I decided  
+>>>>>>> to try implementing your lyre into the icon.
+>>>>>>>
+>>>>>>> Here's what it looks like in the app:
+>>>>>>>
+>>>>>> <GL-Z3-Window-Preview.jpg>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> And here's what it looks like at 32x32 on the desktop:
+>>>>>>>
+>>>>>> <GL-Z3-32p.gif>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> Here's the whole icon for you to checkout (up to 512x512 of  
+>>>>>>> course):
+>>>>>>>
+>>>>>> <GLyrics-Z3.icns.zip>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> What do you think?
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> best,
+>>>>>>> BT
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>
+
+
+--Apple-Mail-2-326856608
+Content-Type: text/html;
+	charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div>Hey =
+Chris,</div><div><br></div><div>See? My steadfastness paid off. =
+:)</div><div><br></div><div>Looks like a win/win =
+situation.</div><div>You can link to <a =
+href=3D"http://byteful.com/blog/">http://byteful.com/blog/</a> and list =
+the credit as Byteful Travel, yep.</div><div><br></div><div>Hey also, I =
+just had an idea. What if you made a menubar menu that showed the lyrics =
+of the song inside menu itself when you clicked it? Or maybe just a =
+button in the menubar that toggled the lyric =
+window.</div><div><br></div><br><div apple-content-edited=3D"true"> =
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: 'Helvetica Neue'; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+'Helvetica Neue'; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; =
+"><div><div><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br =
+class=3D"Apple-interchange-newline">best,</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">//&gt; =
+BT</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Creator of Byteful =
+Travel featuring: Free travel advice,</font></div><div style=3D"font-size:=
+ 11px; "><font class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'">creative commons travel photography, and travel video =
+resources.</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Come with me and see =
+Earth's amazing tapestry of life and culture!</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'"><br></font></div><div><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'">Twitter: &nbsp; =
+&nbsp;&nbsp;@Bytefulcom</font></div></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Web: <a =
+href=3D"http://Byteful.com/blog/">http://Byteful.com/blog/</a></font></div=
+></span></div></span> </div><br><div><div>On 2010 Oct 21, at 19.15, =
+Chris J. Shull wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div>Oh yeah, very =
+nice.</div><div>Now I just got to get my act together and put some =
+features/fixes into a new version :)</div><div><br></div><div>Do you =
+want your credit listed as "Byteful Travel" (linking to&nbsp;<a =
+href=3D"http://byteful.com/">http://byteful.com/</a>), or something =
+else?</div><div><br></div><div>~Chris</div><br><div><div>On Oct 21, =
+2010, at 7:56 PM, Byteful Travel wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div>Good call. I've tweaked =
+the 128x128 icon.</div><div><br></div><div>The trick with the width on =
+these strings is that it's a tricky balance, if I make them too thick, =
+they'll look too heavy, but if i make them too thin, they'll disappear =
+when the app resizes the 128 like it does =
+here:</div><div><br></div><div></div></div><span>&lt;pastedGraphic.png&gt;=
+</span><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; =
+"><div></div><div><br></div><div>That's the new version, and I think =
+it's the optimal =
+balance.</div><div><br></div><div><br></div><div></div></div><span>&lt;GLy=
+rics-T4B.icns.zip&gt;</span><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div></div><div><br></div><div><br></div><br><div =
+apple-content-edited=3D"true"> <div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div><div><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br =
+class=3D"Apple-interchange-newline">best,</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">//&gt; =
+BT</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Creator of Byteful =
+Travel featuring: Free travel advice,</font></div><div style=3D"font-size:=
+ 11px; "><font class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'">creative commons travel photography, and travel video =
+resources.</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Come with me and see =
+Earth's amazing tapestry of life and culture!</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'"><br></font></div><div><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'">Twitter: &nbsp; =
+&nbsp;&nbsp;@Bytefulcom</font></div></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Web: <a =
+href=3D"http://Byteful.com/blog/">http://Byteful.com/blog/</a></font></div=
+></div> </div><br><div><div>On 2010 Oct 17, at 21.03, Chris J. Shull =
+wrote:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space; "><div>Love it. However, =
+how does it look if the "strings" n this on are a tad more =
+slender:</div><div><span>&lt;PastedGraphic-4.png&gt;</span></div><div><br>=
+</div><div>There transition between these two in the Icon Composer =
+preview is just a bit =
+jarring:</div><div><span>&lt;PastedGraphic-5.png&gt;</span><span>&lt;Paste=
+dGraphic-6.png&gt;</span></div><div><br></div><div>~Chris</div><br><div><d=
+iv>On Oct 17, 2010, at 4:25 PM, Byteful Travel wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Hey =
+Chris,</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; min-height: 16px; "><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'"><br></font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Persistent? Yes, I =
+suppose you could describe me that way. In any case, I don't like to =
+give up on a project that I know I could be of help on. =
+:)</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; "><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'">I =
+finally got some time to work on the GL icon over the last few days, and =
+I gotta say, making it a round icon was a great idea. Thanks for =
+suggesting that! I agree about the scaling issues, and I've worked =
+really hard on this version to make sure that this icon is completely =
+optimized for 512, 128, 32, and 16x16 sizes. I think you'll be =
+pleasantly surprised.</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; "><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'">I've =
+taken into account all of your suggestions, and I've also included both =
+black and white version of a menubar icon (white for when you click on =
+it).</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; "><font class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'"><br></font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; "><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'">I've attached an archive containing the icns =
+file and both menubar graphic png images to this email. Let me know what =
+you think.</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; "><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'">I =
+suspect you'll like version Theta4 &nbsp;(this version) of the =
+icon.</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; min-height: 16px; "><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'"><br></font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'"></font></div></div><span>&lt;GL-T4-and-Menubar-icons.zip&gt;</span><d=
+iv style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 14px/normal 'Helvetica =
+Neue'; min-height: 16px; "><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'"><br></font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 14px/normal 'Helvetica Neue'; min-height: 16px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br></font></div><div =
+apple-content-edited=3D"true"> <div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div><div><font class=3D"Apple-style-span" face=3D"'Trebuchet MS'"><br =
+class=3D"Apple-interchange-newline">best,</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">//&gt; =
+BT</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Creator of Byteful =
+Travel featuring: Free travel advice,</font></div><div style=3D"font-size:=
+ 11px; "><font class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'">creative commons travel photography, and travel video =
+resources.</font></div><div style=3D"font-size: 11px; "><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Come with me and see =
+Earth's amazing tapestry of life and culture!</font></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet =
+MS'"><br></font></div><div><font class=3D"Apple-style-span" =
+face=3D"'Trebuchet MS'">Twitter: &nbsp; =
+&nbsp;&nbsp;@Bytefulcom</font></div></div><div><font =
+class=3D"Apple-style-span" face=3D"'Trebuchet MS'">Web: <a =
+href=3D"http://Byteful.com/blog/">http://Byteful.com/blog/</a></font></div=
+></div> </div><br><div><div>On 2010 Oct 02, at 20.40, Chris J. Shull =
+wrote:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space; "><div>Well aren't you =
+persistent. I have to say, with the recent change in the iTunes icon to =
+something more iPhone-esque, your design might actually fit in pretty =
+well.&nbsp;</div><div>I also like this one better than the =
+previous.</div><div><br></div><div>Couple of comments:</div><div>1) =
+there is a scaling issue at smaller sizes. If you aren't already, stink =
+the icon in Icon Composer (part of the apple dev tools). There is a =
+panel where you can preview the icon as it scales (and the transitions =
+between the different seed =
+images).</div><div><span>&lt;PastedGraphic-6.tiff&gt;</span></div><div><br=
+></div><div>Take a look at the icons for NetNewsWire and Plex icons =
+(bellow). These icons obviously haven't just scaled down their artwork; =
+they've made new artwork which mimics the large, but is clearer in the =
+small format. Maybe something like =
+this?</div><div><span>&lt;PastedGraphic-10.tiff&gt;</span></div><div><br><=
+/div><div>2) Maybe a thicker outer border?&nbsp;</div><div>3) Maybe =
+utilize more of the available space (less transparent =
+padding?</div><div>4) Maybe in a circle? (Yes, like iTunes)</div><div>5) =
+When I look very closely I'm not a fan of the diagonal luminescence. =
+Perhaps something more ambiguous.&nbsp;</div><div><br></div><div>It =
+obviously needs to be visually distinct, but also look "right" if you =
+put it in the dock next to iTunes. It's close, but not quite =
+IMO:</div><div><span>&lt;PastedGraphic-12.png&gt;</span></div><div><br></d=
+iv><div>Oh, and it would be nice, if I ever add a menu bar option to =
+have a black and alpha version suitable to go up there (to be clear: =
+e.g. next to wifi, volume, time and Spotlight).&nbsp;</div><div>At that =
+point I'd think just the lyre would be clearest - no outer box. =
+Maybe.</div><div><br></div><div>~Chris</div><div><br></div><div><br></div>=
+<div><span>&lt;PastedGraphic-8.png&gt;</span></div><div><span>&lt;PastedGr=
+aphic-9.png&gt;</span></div><div><br></div><br><div><div>On Oct 2, 2010, =
+at 8:50 PM, Byteful Travel wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">Hello =
+Chris,<div><br></div><div><br></div><div>I can only assume from your =
+lack of response to my last email that you're either very very busy, or =
+don't like my work on the the Get Lyrical icon at =
+all.</div><div><br></div><div>Since I just recently finished an update =
+to my own site, I thought I'd apply some of the lessons I learned to the =
+GL icon I've been working on, and I came up with =
+this:</div><div><br></div><div><br></div><div></div></div><span>&lt;pasted=
+Graphic.png&gt;</span><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div></div><div><br></div><div><br></div><div>I have put a =
+considerable amount of hours into the icon by now, and this version is =
+my favorite so far.</div><div><br></div><div>Here's a full resolution =
+512x512 icns icon of =
+it:</div><div></div></div><span>&lt;GLyrics-Z4.icns.zip&gt;</span><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; =
+"><div></div><div><br></div><div><br></div><div><div><br><br></div><div>Wh=
+at do you think?</div></div><div>Even if you had nothing positive to say =
+about it, I would very much appreciate some constructive criticism on =
+it.</div><div><br></div><div><br></div><div>thanks!,</div><div>BT</div><di=
+v><br></div><div>@bytefulcom</div><div><div><a =
+href=3D"http://byteful.com/">http://byteful.com</a></div><div><br></div><d=
+iv><br></div><div><br></div><div><br></div><div><br></div><div><br></div><=
+div><br></div><div><br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"4" color=3D"#000000" =
+style=3D"font: 14.0px Helvetica; color: #000000"><b>From: =
+</b></font><font face=3D"Helvetica" size=3D"4" style=3D"font: 14.0px =
+Helvetica">Byteful Travel &lt;<a =
+href=3D"mailto:byteful@gmail.com">byteful@gmail.com</a>&gt;</font></div><d=
+iv style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"4" color=3D"#000000" =
+style=3D"font: 14.0px Helvetica; color: #000000"><b>Date: =
+</b></font><font face=3D"Helvetica" size=3D"4" style=3D"font: 14.0px =
+Helvetica">2010 Jul 29, Thu 13.18.36</font></div><div style=3D"margin-top:=
+ 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"4" color=3D"#000000" style=3D"font: 14.0px =
+Helvetica; color: #000000"><b>To: </b></font><font face=3D"Helvetica" =
+size=3D"4" style=3D"font: 14.0px Helvetica">"Chris J. Shull" &lt;<a =
+href=3D"mailto:ShullianProductions@gmail.com">ShullianProductions@gmail.co=
+m</a>&gt;</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"4" color=3D"#000000" style=3D"font: 14.0px Helvetica; color: =
+#000000"><b>Subject: </b></font><font face=3D"Helvetica" size=3D"4" =
+style=3D"font: 14.0px Helvetica"><b>The GL Lyre =
+icon</b></font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><br></div> =
+</div><div>Hi Chris!<br><br><br>So I was playing around with the GL icon =
+again, and I decided to try implementing your lyre into the =
+icon.<br><br>Here's what it looks like in the =
+app:<br><br></div></blockquote></div></div></div><span>&lt;GL-Z3-Window-Pr=
+eview.jpg&gt;</span><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div><div><blockquote type=3D"cite"><div><br><br><br><br>And here's =
+what it looks like at 32x32 on the =
+desktop:<br><br></div></blockquote></div></div></div><span>&lt;GL-Z3-32p.g=
+if&gt;</span><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space; "><div><div><blockquote =
+type=3D"cite"><div><br><br><br>Here's the whole icon for you to checkout =
+(up to 512x512 of =
+course):<br><br></div></blockquote></div></div></div><span>&lt;GLyrics-Z3.=
+icns.zip&gt;</span><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div><div><blockquote type=3D"cite"><div><br><br><br><br><br><br>What =
+do you =
+think?<br><br><br><br><br>best,<br>BT</div></blockquote></div><br></div></=
+div></blockquote></div><br></div></blockquote></div><br></div></blockquote=
+></div><br></div></blockquote></div><br></div></blockquote></div><br></div=
+></blockquote></div><br></body></html>=
+
+--Apple-Mail-2-326856608--

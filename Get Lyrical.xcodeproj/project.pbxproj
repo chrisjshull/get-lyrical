@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				257572C5072881A4000BE9CA /* Get Lyrical.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C5072881A4000BE9CA /* Get Lyrical.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* Get Lyrical.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		257572C7072881A4000BE9CA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		837F5A7F0F2087EA00B19223 /* go.php in Resources */ = {isa = PBXBuildFile; fileRef = 837F5A700F2087EA00B19223 /* go.php */; };
+		83B6E3DA0FA50B2900214CF3 /* textedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B6E3D90FA50B2900214CF3 /* textedit.png */; };
+		83CC9AF00FD2FF4A003DE458 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 83CC9AEF0FD2FF4A003DE458 /* Credits.rtf */; };
+		83D21E280F6A53C9009D8ECC /* green.tif in Resources */ = {isa = PBXBuildFile; fileRef = 83D21E250F6A53C9009D8ECC /* green.tif */; };
+		83D21E290F6A53C9009D8ECC /* red.tif in Resources */ = {isa = PBXBuildFile; fileRef = 83D21E260F6A53C9009D8ECC /* red.tif */; };
+		83D21E2A0F6A53C9009D8ECC /* yellow.tif in Resources */ = {isa = PBXBuildFile; fileRef = 83D21E270F6A53C9009D8ECC /* yellow.tif */; };
+		83D33F0C0F2AD74C0078AFCF /* ITObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D33F0B0F2AD74C0078AFCF /* ITObserver.h */; };
+		83D33F0E0F2AD79A0078AFCF /* ITObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D33F0D0F2AD79A0078AFCF /* ITObserver.m */; };
+		83E05716116803FD00F7C9F6 /* gl lyre.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83E05715116803FD00F7C9F6 /* gl lyre.icns */; };
+		83F4C3ED1093C69A00DFB763 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F4C3EC1093C69A00DFB763 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* Get Lyrical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Lyrical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		8351FB411145B94B00DB0329 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "pt-BR"; path = "pt-BR.lproj/MainMenu.nib"; sourceTree = "<group>"; };
+		8351FB421145B95600DB0329 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		837F5A700F2087EA00B19223 /* go.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = go.php; sourceTree = "<group>"; };
+		839D973210BC62970073411B /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Spanish; path = Spanish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		839D973310BC62A60073411B /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83AAC3B311553AF200F25503 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		83AAC3B411553AFD00F25503 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83AC458610D8658A0048A16C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		83AC458810D8659C0048A16C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83B0971B109E8701009B18A1 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83B6E3D90FA50B2900214CF3 /* textedit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textedit.png; sourceTree = "<group>"; };
+		83BBF2FF0FD30389007AFD0A /* Read Me.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Read Me.html"; sourceTree = "<group>"; };
+		83CC9AEF0FD2FF4A003DE458 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		83D1F09811155A28006DB8C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "zh-Hant"; path = "zh-Hant.lproj/MainMenu.nib"; sourceTree = "<group>"; };
+		83D1F09B11155A37006DB8C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		83D1F0F01116AD5E006DB8C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		83D1F0F31116AD6A006DB8C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.nib"; sourceTree = "<group>"; };
+		83D21E250F6A53C9009D8ECC /* green.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = green.tif; sourceTree = "<group>"; };
+		83D21E260F6A53C9009D8ECC /* red.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red.tif; sourceTree = "<group>"; };
+		83D21E270F6A53C9009D8ECC /* yellow.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = yellow.tif; sourceTree = "<group>"; };
+		83D33F0B0F2AD74C0078AFCF /* ITObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITObserver.h; sourceTree = "<group>"; };
+		83D33F0D0F2AD79A0078AFCF /* ITObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITObserver.m; sourceTree = "<group>"; };
+		83E05715116803FD00F7C9F6 /* gl lyre.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "gl lyre.icns"; sourceTree = "<group>"; };
+		83F4C3C71093BFB800DFB763 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		83F4C3E91093C68000DFB763 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83F4C3EE1093C6A800DFB763 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83F4C4FA1095070500DFB763 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* Get Lyrical.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Get Lyrical.applescript"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DA206CF3015C4E8B03C91932 /* Get Lyrical.applescript */,
+				83B6E3D90FA50B2900214CF3 /* textedit.png */,
+				837F5A700F2087EA00B19223 /* go.php */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* Get Lyrical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Get Lyrical */ = {
+			isa = PBXGroup;
+			children = (
+				83E05715116803FD00F7C9F6 /* gl lyre.icns */,
+				83CC9AEF0FD2FF4A003DE458 /* Credits.rtf */,
+				83BBF2FF0FD30389007AFD0A /* Read Me.html */,
+				83D33F0B0F2AD74C0078AFCF /* ITObserver.h */,
+				83D21E250F6A53C9009D8ECC /* green.tif */,
+				83D21E260F6A53C9009D8ECC /* red.tif */,
+				83D21E270F6A53C9009D8ECC /* yellow.tif */,
+				83D33F0D0F2AD79A0078AFCF /* ITObserver.m */,
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				257572D5072881A4000BE9CA /* Info.plist */,
+			);
+			name = "Get Lyrical";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+				83F4C3EC1093C69A00DFB763 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D33F0C0F2AD74C0078AFCF /* ITObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* Get Lyrical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "Get Lyrical" */;
+			buildPhases = (
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+				83F4C43E1093D47200DFB763 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Lyrical";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Get Lyrical";
+			productReference = 257572D6072881A4000BE9CA /* Get Lyrical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "Get Lyrical" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+				Spanish,
+				zh_TW,
+				"zh-Hant",
+				"zh-Hans",
+				ro,
+				"pt-BR",
+				nl,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Get Lyrical */;
+			projectDirPath = "";
+			projectRoot = "/Users/chris/Code/Get Lyrical svn";
+			targets = (
+				257572C2072881A4000BE9CA /* Get Lyrical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C7072881A4000BE9CA /* MainMenu.nib in Resources */,
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				837F5A7F0F2087EA00B19223 /* go.php in Resources */,
+				83D21E280F6A53C9009D8ECC /* green.tif in Resources */,
+				83D21E290F6A53C9009D8ECC /* red.tif in Resources */,
+				83D21E2A0F6A53C9009D8ECC /* yellow.tif in Resources */,
+				83B6E3DA0FA50B2900214CF3 /* textedit.png in Resources */,
+				83CC9AF00FD2FF4A003DE458 /* Credits.rtf in Resources */,
+				83F4C3ED1093C69A00DFB763 /* Localizable.strings in Resources */,
+				83E05716116803FD00F7C9F6 /* gl lyre.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F4C43E1093D47200DFB763 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nrm -r Get\\ Lyrical\nmkdir -p Get\\ Lyrical\ncp -r Read\\ Me.html Get\\ Lyrical/Read\\ Me.html\ncp -r build/Release/Get\\ Lyrical.app Get\\ Lyrical/\nditto -c -k --sequesterRsrc --keepParent Get\\ Lyrical/ getlyrical.zip";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+				83D33F0E0F2AD79A0078AFCF /* ITObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				83F4C3C71093BFB800DFB763 /* German */,
+				83F4C4FA1095070500DFB763 /* Italian */,
+				839D973210BC62970073411B /* Spanish */,
+				83AC458610D8658A0048A16C /* French */,
+				83D1F09811155A28006DB8C8 /* zh-Hant */,
+				83D1F0F31116AD6A006DB8C8 /* zh-Hans */,
+				8351FB411145B94B00DB0329 /* pt-BR */,
+				83AAC3B311553AF200F25503 /* nl */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		83F4C3EC1093C69A00DFB763 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F4C3E91093C68000DFB763 /* English */,
+				83F4C3EE1093C6A800DFB763 /* German */,
+				83B0971B109E8701009B18A1 /* Italian */,
+				839D973310BC62A60073411B /* Spanish */,
+				83AC458810D8659C0048A16C /* French */,
+				83D1F09B11155A37006DB8C8 /* zh-Hant */,
+				83D1F0F01116AD5E006DB8C8 /* zh-Hans */,
+				8351FB421145B95600DB0329 /* pt-BR */,
+				83AAC3B411553AFD00F25503 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E71A80608A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Get Lyrical";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4E71A80708A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = "Get Lyrical";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E71A80A08A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E71A80B08A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "Get Lyrical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80608A2C90C0034BBD9 /* Debug */,
+				4E71A80708A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "Get Lyrical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80A08A2C90C0034BBD9 /* Debug */,
+				4E71A80B08A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

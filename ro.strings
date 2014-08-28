@@ -1,0 +1,39 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Apple Inc., Shullian Productions, LLC. Toate drepturile reyervate. */
+
+"Lyrics Not Found" = "Versurile nu au fost găsite"; /* the playlist name for not found lyrics */
+"of" = "din";
+"Done! Found: " = "Căutarea s-a terminat! Găsite: ";
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Selecție";
+"Active" = "Activă"; 
+"Current" = "Curentă";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Versuri";
+"No" = "Nu";
+"Yes" = "Da";
+"OK" = "OK";
+"No tracks selected..." = "Nicio piesă selectată...";
+"Would you like to overwrite any existing lyrics?" = "Doriți să înlocuiesc versurile existente?";
+"No tracks selected or playing." = "Nu ați selectat și nu ascultați nicio piesă";
+"No tracks playing..." = "Nu se ascultă nicio piesă...";
+"No track in HUD..." = "Niciun titlu în HUD...";
+"No track playing." = "Nu se ascultă nicio piesă.";
+"No track selected (or you have more than one track selected)." = "Nu ați selectat niciun titlu (sau ați selectat mai multe).";
+"Not up to date (current version: " = "A apărut o versiune nouă de soft (Versiunea instalată: ";
+"latest version: " = "Ultima versiune: ";
+"Update now?" = "Actualizați acum?";
+"Not Yet" = "Nu încă";
+"Get Update" = "Actualizează";
+"You are up to date (version: " = "Aveți cea mai nouă version de soft (v: ";
+
+
+"Edit" = "Editează"; /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Salvează"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "Eroare la verificarea versiunii. Sunteți conectat la internet? Incercați și cu http://shullian.com";

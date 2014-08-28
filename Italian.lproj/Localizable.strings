@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "Testo della canzone non trovato"; /* the playlist name for not found lyrics */
+"of" = "di";
+"Done! Found: " = "Fatto! Trovato: ";
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Selezione";
+"Active" = "Attivo"; 
+"Current" = "Corrente";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Testo della canzone";
+"No" = "No";
+"Yes" = "Si";
+"OK" = "OK";
+"No tracks selected..." = "Nessun brano selezionato...";
+"Would you like to overwrite any existing lyrics?" = "Vuoi sovrascrivere qualsiasi testo esistente?";
+"No tracks selected or playing." = "Nessun brano selezionato o in riproduzione.";
+"No tracks playing..." = "Nessun brano in riproduzione...";
+"No track in HUD..." = "Nessun brano in HUD...";
+"No track playing." = "Nessun brano riprodotto.";
+"No track selected (or you have more than one track selected)." = "Nessun brano selezionato (oppure hai selezionato più di un brano).";
+"Not up to date (current version: " = "Non aggiornato (versione corrente: ";
+"latest version: " = "ultima versione: ";
+"Update now?" = "Vuoi aggiornare adesso?";
+"Not Yet" = "Non ancora";
+"Get Update" = "Aggiorna adesso";
+"You are up to date (version: " = "Sei aggiornato (versione: ";
+
+
+"Edit" = "Modifica"; /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Registra"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "Impossibile verificare la versione. Hai una connessione ad internet? Puoi verificare anche su http://shullian.com.";

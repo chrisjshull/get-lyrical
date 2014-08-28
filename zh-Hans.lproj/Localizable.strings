@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "抱歉，未能找到歌词"; /*"Aucune parole trouvée";*/ /* the playlist name for not found lyrics */
+"of" = "/" /*"de"*/;
+"Done! Found: " = "完成！已找到：" /*"Effectué! A trouvé: "*/;
+	/* the following describe what the lyrics window is showing */
+"Selection" = "选中歌曲";
+"Active" = "实时";
+"Current" = "当前歌曲";
+"HUD" = "平视显示器(HUD)"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "歌词";
+"No" = "是";
+"Yes" = "否";
+"OK" = "确认";
+"No tracks selected..." = "没有选择歌曲..."; /*"Aucuns morceaux sélectionnés...";*/
+"Would you like to overwrite any existing lyrics?" = "您希望覆写已经存在的歌词吗?"; /*"Voulez-vous écraser des paroles existantes?";*/
+"No tracks selected or playing." = "没有选择或播放歌曲."; /*"Aucuns morceaux sélectionnés ou en cours de lecture.";*/
+"No tracks playing..." = "没有正在播放的歌曲..."; /*"Aucuns morceaux en cours de lecture...";*/
+"No track in HUD..." = "在平视显示器(HUD)中没有歌曲..."; /*"Aucun morceau dans le HUD...";*/
+"No track playing." = "没有正在播放的歌曲.";
+"No track selected (or you have more than one track selected)." = "请选择歌曲 (或您选择了多首歌曲)"; /*"Aucun morceau sélectionné (ou alors vous avez plus d'une chanson de sélectionnée).";*/
+"Not up to date (current version: " = "您的版本已过时 (最新版本: "; /*"Pas à jour (version actuelle: ";*/
+"latest version: " = "最新版本:"; /*"dernière version: ";*/
+"Update now?" = "现在就更新吗?"; /*"Mettre à jour maintenant?";*/
+"Not Yet" = "尚未完成";
+"Get Update" = "更新"; /* "Obtenir la mise à jour" If this is a button name, replace by "Obtenir" ("Get"): the context will make it clear, and the button name is otherwise too long)*/
+"You are up to date (version: " = "已为最新 (版本: "; /*"Votre version actuelle est à jour (version: ";*/
+
+
+"Edit" = "编辑"; /*"Editer";*/ /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "保存"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "检查版本失败。您的网络连接正常吗？您也可以访问 http://shullian.com";

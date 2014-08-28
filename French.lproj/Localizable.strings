@@ -1,0 +1,41 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Modified by Matti Schneider-Ghibaudo on 12/27/09.
+   Copyright 2009 Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "Sans paroles"; /*"Aucune parole trouvée";*/ /* the playlist name for not found lyrics */
+"of" = "sur" /*"de"*/;
+"Done! Found: " = "Fini ! Trouvé : " /*"Effectué! A trouvé: "*/;
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Sélection";
+"Active" = "Actif";
+"Current" = "Actuel";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Paroles";
+"No" = "Non";
+"Yes" = "Oui";
+"OK" = "OK";
+"No tracks selected..." = "Aucun morceau sélectionné..."; /*"Aucuns morceaux sélectionnés...";*/
+"Would you like to overwrite any existing lyrics?" = "Voulez-vous écraser les paroles existantes ?"; /*"Voulez-vous écraser des paroles existantes?";*/
+"No tracks selected or playing." = "Aucun morceau sélectionné ni en cours de lecture."; /*"Aucuns morceaux sélectionnés ou en cours de lecture.";*/
+"No tracks playing..." = "Aucun morceau en lecture..."; /*"Aucuns morceaux en cours de lecture...";*/
+"No track in HUD..." = "Aucun morceau dans le HUD..."; /*"Aucun morceau dans le HUD...";*/
+"No track playing." = "Aucun morceau en lecture.";
+"No track selected (or you have more than one track selected)." = "Aucun morceau sélectionné (ou plus d'un)."; /*"Aucun morceau sélectionné (ou alors vous avez plus d'une chanson de sélectionnée).";*/
+"Not up to date (current version: " = "Pas à jour (version actuelle : "; /*"Pas à jour (version actuelle: ";*/
+"latest version: " = "dernière version : "; /*"dernière version: ";*/
+"Update now?" = "Mettre à jour maintenant ?"; /*"Mettre à jour maintenant?";*/
+"Not Yet" = "Plus tard";
+"Get Update" = "Obtenir"; /* "Obtenir la mise à jour" If this is a button name, replace by "Obtenir" ("Get"): the context will make it clear, and the button name is otherwise too long)*/
+"You are up to date (version: " = "L'application est à jour (version : "; /*"Votre version actuelle est à jour (version: ";*/
+
+
+"Edit" = "Éditer"; /*"Editer";*/ /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Sauvegarder"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "Impossible de vérifier les mises à jour. Votre connexion internet fonctionne-t-elle ? Vous pouvez également vérifier vous-même sur http://shullian.com.";

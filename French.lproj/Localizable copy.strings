@@ -1,0 +1,38 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Apple Inc., Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "Aucune parole trouvée"; /* the playlist name for not found lyrics */
+"of" = "de";
+"Done! Found: " = "Effectué! A trouvé: ";
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Sélection";
+"Active" = "Actif"; 
+"Current" = "Actuel";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Paroles";
+"No" = "Non";
+"Yes" = "Oui";
+"OK" = "OK";
+"No tracks selected..." = "Aucun morceau sélectionné..."; /*"Aucuns morceaux sélectionnés...";*/
+"Would you like to overwrite any existing lyrics?" = "Voulez-vous écraser des paroles existantes?";
+"No tracks selected or playing." = "Aucuns morceaux sélectionnés ou en cours de lecture.";
+"No tracks playing..." = "Aucuns morceaux en cours de lecture...";
+"No track in HUD..." = "Aucun morceau dans le HUD...";
+"No track playing." = "Aucun morceau en cours de lecture.";
+"No track selected (or you have more than one track selected)." = "Aucun morceau sélectionné (ou alors vous avez plus d'une chanson de sélectionnée).";
+"Not up to date (current version: " = "Pas à jour (version actuelle: ";
+"latest version: " = "dernière version: ";
+"Update now?" = "Mettre à jour maintenant?";
+"Not Yet" = "Plus tard";
+"Get Update" = "Obtenir la mise à jour";
+"You are up to date (version: " = "Votre version actuelle est à jour (version: ";
+
+
+"Edit" = "Editer"; /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Sauvegarder"; /* Text for the Save button */
