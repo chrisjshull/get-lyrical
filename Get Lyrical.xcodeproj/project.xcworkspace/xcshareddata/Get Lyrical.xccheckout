@@ -5,41 +5,41 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C0737A17-BDAB-47D0-8BA0-5E1EBBDD7BBF</string>
+	<string>B0B7C660-F71F-43BE-8757-CFF665FDE0A7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Get Lyrical</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3E57547F-D410-483C-96D6-138223F4EB3B</key>
-		<string>http://chrisjshull.dyndns.org/svn/getlyrical</string>
+		<key>ECCDDAC8-EDFE-42AC-B842-762004A096DA</key>
+		<string>https://svn.shullian.com/spoons</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>trunk/Get Lyrical.xcodeproj/project.xcworkspace</string>
+	<string>get_lyrical/trunk/Get Lyrical.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3E57547F-D410-483C-96D6-138223F4EB3B</key>
-		<string>../../..</string>
+		<key>ECCDDAC8-EDFE-42AC-B842-762004A096DA</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
-		<key>3E57547F-D410-483C-96D6-138223F4EB3B</key>
-		<string>http://chrisjshull.dyndns.org/svn/getlyrical</string>
+		<key>ECCDDAC8-EDFE-42AC-B842-762004A096DA</key>
+		<string>https://svn.shullian.com/spoons</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://chrisjshull.dyndns.org/svn/getlyrical/trunk/Get%20Lyrical.xcodeproj</string>
+	<string>https://svn.shullian.com/spoons/get_lyrical/trunk/Get%20Lyrical.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3E57547F-D410-483C-96D6-138223F4EB3B</string>
+	<string>ECCDDAC8-EDFE-42AC-B842-762004A096DA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3E57547F-D410-483C-96D6-138223F4EB3B</string>
+			<string>ECCDDAC8-EDFE-42AC-B842-762004A096DA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Get Lyrical svn</string>
+			<string>spoons</string>
 		</dict>
 	</array>
 </dict>

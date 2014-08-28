@@ -25,7 +25,7 @@ lyricwiki.org ping check
 
 *)
 
-property myvers : "3.7" --no abc
+property myvers : "3.8.1" --no abc
 property go_vers : ""
 
 global fails
@@ -981,7 +981,7 @@ on check_vers(sayifok)
 				tell me to set UDdiag to display dialog (localized string "Not up to date (current version: " from table "Localizable") & myvers & ", " & (localized string "latest version: " from table "Localizable") & thevers & ")." & return & (localized string "Update now?" from table "Localizable") buttons {(localized string "Not Yet" from table "Localizable"), (localized string "Get Update" from table "Localizable")} default button 2 with icon icon --attached to window "Freeopardy"
 			end tell
 			if button returned of UDdiag is (localized string "Get Update" from table "Localizable") then
-				open location "http://shullian.com/"
+				open location "http://shullian.com/get_lyrical.php"
 			end if
 		else if sayifok then
 			tell application "System Events"
