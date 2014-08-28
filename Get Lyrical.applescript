@@ -25,7 +25,7 @@ lyricwiki.org ping check
 
 *)
 
-property myvers : "3.8" --no abc
+property myvers : "3.8.1" --no abc
 property go_vers : ""
 
 global fails
