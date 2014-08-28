@@ -278,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nrm -r Get\\ Lyrical\nmkdir -p Get\\ Lyrical\ncp -r Read\\ Me.html Get\\ Lyrical/Read\\ Me.html\ncp -r build/Release/Get\\ Lyrical.app Get\\ Lyrical/\nditto -c -k --sequesterRsrc --keepParent Get\\ Lyrical/ getlyrical.zip";
+			shellScript = "\nrm -r Get\\ Lyrical\nmkdir -p Get\\ Lyrical\ncp -r Read\\ Me.html Get\\ Lyrical/Read\\ Me.html\ncp -r \"$TARGET_BUILD_DIR\"/Get\\ Lyrical.app Get\\ Lyrical/\nditto -c -k --sequesterRsrc --keepParent Get\\ Lyrical/ getlyrical.zip";
 		};
 /* End PBXShellScriptBuildPhase section */
 
