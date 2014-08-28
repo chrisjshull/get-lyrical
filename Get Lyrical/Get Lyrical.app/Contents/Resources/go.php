@@ -1,4 +1,6 @@
-﻿<?php //1.3.1
+﻿<?php //1.3.2
+
+
 
 ini_set('user_agent', 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10');	
 	
@@ -17,8 +19,8 @@ $dofoot = ($argv[4] == 1);
 
 //$artist1="周杰伦"; $song1 = "简单爱";
 
+//print_r($argv);
 
-//print_r($artist);
 
 /* TEST CASES
 	\ "Nine Inch Nails" "Right Where It Belongs"
@@ -111,6 +113,7 @@ if ($CODE == "zh") {
 	//die();
 }
 
+//print_r($CODE);
 
 $song = rawurlencode($song1);
 $artist = rawurlencode($artist1);
@@ -155,12 +158,15 @@ function parsepage($url, $song, $artist, $dohead, $dofoot) {
 	$PS = preg_split("/<div class='lyricbox'[ ]*>/",$page);
 	for ($i=1;$i<count($PS);$i++) {
 		$page1 = $PS[$i];
+        
+        $page1 = preg_replace('/<script>.*?<\/script>/i',"",$page1);
 		
-		//echo $page1;
 		$pages = preg_split("/<\/div>/",$page1);
-		
+		      
 		$page0 = $pages[0];
-		$page0 = (preg_replace('/<br[ ]*\/*>/',"\n",$page0));
+        
+		$page0 = preg_replace('/<br[ ]*\/*>/',"\n",$page0);
+        
 		
 		$page0 = strip_tags($page0);
 		$page0 = html_entity_decode($page0, ENT_QUOTES, "UTF-8");
