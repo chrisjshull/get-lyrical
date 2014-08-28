@@ -1,0 +1,916 @@
+TGet Lyrical
+v7
+r0
+t291707498.596564
+cCheck dependencies
+cProcessInfoPlistFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Info.plist" Info.plist
+cOSACompile "build/Release/Get Lyrical.app/Contents/Resources/Scripts/Get Lyrical.scpt" "Get Lyrical.applescript"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib"
+cStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib"
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/logo base.png" "logo base.png"
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/logo base trim.png" "logo base trim.png"
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/go.php" go.php
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/icon.icns" icon.icns
+cCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/green.tif" green.tif
+cCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/red.tif" red.tif
+cCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/yellow.tif" yellow.tif
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/textedit.png" textedit.png
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/Credits.rtf" Credits.rtf
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/Localizable.strings" German.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/Localizable.strings" Italian.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/Localizable.strings" French.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/Localizable.strings" zh-Hant.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/Localizable.strings" zh-Hans.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/Localizable.strings" pt-BR.lproj/Localizable.strings
+cCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/Localizable.strings" nl.lproj/Localizable.strings
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/new gl icon.icns" "new gl icon.icns"
+cCpResource "build/Release/Get Lyrical.app/Contents/Resources/new gl icon - no transp.icns" "new gl icon - no transp.icns"
+cCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/main.o" "/Users/chris/Code/Get Lyrical svn/trunk/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/ITObserver.o" "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/main.o" "/Users/chris/Code/Get Lyrical svn/trunk/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/ITObserver.o" "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical" normal ppc
+cLd "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical" normal i386
+cCreateUniversalBinary "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical" normal "ppc i386"
+cGenerateDSYMFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app.dSYM" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical"
+cPhaseScriptExecution "Run Script" "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Script-83F4C43E1093D47200DFB763.sh"
+cTouch "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/AppleScriptKit.framework/AppleScriptKit
+c000000004A1F2E5D00000000001BBC30
+t1243557469
+s1817648
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Credits.rtf
+c000000004BA57697000000000000061A
+t1269134999
+s1562
+
+N/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/InfoPlist.strings
+c000000004B62596300000000000000EC
+t1264736611
+s236
+
+N/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/Localizable.strings
+c000000004B9582B700000000000000A3
+t1268089527
+s163
+
+N/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib
+c000000004BB222F600000000000000AA
+t1269965558
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/Localizable.strings
+c000000004B9582B00000000000000A5E
+t1268089520
+s2654
+
+N/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib
+c000000004BB222F800000000000000AA
+t1269965560
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/Localizable.strings
+c000000004B9582B60000000000000774
+t1268089526
+s1908
+
+N/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib
+c000000004BB223DD00000000000000AA
+t1269965789
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Get Lyrical.applescript
+c000000004BB2E2D200000000000088CA
+t1270014674
+s35018
+
+N/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.h
+c000000004B5D132C000000000000011E
+t1264390956
+s286
+i<Cocoa/Cocoa.h>
+
+N/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m
+c000000004B5D132B000000000000037B
+t1264390955
+s891
+i"ITObserver.h"
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/Localizable.strings
+c000000004B9582B40000000000000747
+t1268089524
+s1863
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib
+c000000004BB2241D00000000000000AA
+t1269965853
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/Localizable.strings
+c000000004B9582B20000000000000757
+t1268089522
+s1879
+
+N/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib
+c000000004BB224AE00000000000000AA
+t1269965998
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical
+t1270014698
+s14584
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical.LinkFileList
+c000000004BB2E2E000000000000000F0
+t1270014688
+s240
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/ITObserver.o
+t1270014697
+s16124
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/main.o
+t1270014694
+s3448
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical
+t1270014698
+s14160
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical.LinkFileList
+c000000004BB2E2E000000000000000EE
+t1270014688
+s238
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/ITObserver.o
+t1270014697
+s16900
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/main.o
+t1270014693
+s3596
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Script-83F4C43E1093D47200DFB763.sh
+c000000004BB2E2E000000000000000DC
+t1270014688
+s220
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app
+t1270014698
+s102
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app.dSYM
+t1270014698
+s102
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Info.plist
+t1270014688
+s903
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical
+t1270014698
+s35064
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/PkgInfo
+t1270014688
+s8
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Credits.rtf
+t1270014692
+s1562
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1270014692
+s236
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/Localizable.strings
+t1270014692
+s328
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/MainMenu.nib
+t1270014690
+s47402
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/Localizable.strings
+t1270014692
+s5238
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/MainMenu.nib
+t1270014691
+s41695
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/Localizable.strings
+t1270014692
+s3802
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/MainMenu.nib
+t1270014690
+s51455
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/Localizable.strings
+t1270014692
+s3726
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/MainMenu.nib
+t1270014690
+s51323
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Scripts/Get Lyrical.scpt
+t1270014689
+s44712
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/Localizable.strings
+t1270014692
+s3722
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/MainMenu.nib
+t1270014690
+s51443
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/go.php
+t1270014691
+s6686
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/green.tif
+t1270014692
+s842
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/icon.icns
+t1270014691
+s110769
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/logo base trim.png
+t1270014691
+s8089
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/logo base.png
+t1270014691
+s8318
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/new gl icon - no transp.icns
+t1270014692
+s178705
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/new gl icon.icns
+t1270014692
+s155214
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/Localizable.strings
+t1270014692
+s3692
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/MainMenu.nib
+t1270014691
+s40844
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/Localizable.strings
+t1270014692
+s3642
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/MainMenu.nib
+t1270014691
+s60027
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/red.tif
+t1270014692
+s844
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj/Localizable.strings
+t1268129046
+s3736
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj/MainMenu.nib
+t1268129045
+s39664
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/textedit.png
+t1270014692
+s973
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/yellow.tif
+t1270014692
+s842
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/Localizable.strings
+t1270014692
+s4366
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/MainMenu.nib
+t1270014691
+s58823
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/Localizable.strings
+t1270014692
+s4366
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/MainMenu.nib
+t1270014691
+s58810
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/Localizable.strings
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/zh-Hant
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/zh_TW
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/go.php
+c000000004BAADFAF0000000000001A1E
+t1269489583
+s6686
+
+N/Users/chris/Code/Get Lyrical svn/trunk/green.tif
+c000000004B5D132B000000000000034A
+t1264390955
+s842
+
+N/Users/chris/Code/Get Lyrical svn/trunk/icon.icns
+c000000004B5D132B000000000001B0B1
+t1264390955
+s110769
+
+N/Users/chris/Code/Get Lyrical svn/trunk/logo base trim.png
+c000000004B5D132C0000000000001F99
+t1264390956
+s8089
+
+N/Users/chris/Code/Get Lyrical svn/trunk/logo base.png
+c000000004B5D132C000000000000207E
+t1264390956
+s8318
+
+N/Users/chris/Code/Get Lyrical svn/trunk/main.m
+c000000004B5D132B00000000000000C5
+t1264390955
+s197
+
+N/Users/chris/Code/Get Lyrical svn/trunk/new gl icon - no transp.icns
+c000000004BAFDAE7000000000002BA11
+t1269816039
+s178705
+
+N/Users/chris/Code/Get Lyrical svn/trunk/new gl icon.icns
+c000000004B5D132B0000000000025E4E
+t1264390955
+s155214
+
+N/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/Localizable.strings
+c000000004BA50D7D0000000000000737
+t1269108093
+s1847
+
+N/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib
+c000000004BB2248000000000000000AA
+t1269965952
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/Localizable.strings
+c000000004B95991A000000000000073A
+t1268095258
+s1850
+
+N/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib
+c000000004BB2261300000000000000AA
+t1269966355
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/red.tif
+c000000004B5D132C000000000000034C
+t1264390956
+s844
+
+N/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/Localizable.strings
+c000000004B961A5B000000000000076F
+t1268128347
+s1903
+
+N/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/MainMenu.nib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/textedit.png
+c000000004B5D132B00000000000003CD
+t1264390955
+s973
+
+N/Users/chris/Code/Get Lyrical svn/trunk/yellow.tif
+c000000004B5D132C000000000000034A
+t1264390956
+s842
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/Localizable.strings
+c000000004B9582B900000000000009E7
+t1268089529
+s2535
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib
+c000000004BB225DC00000000000000AA
+t1269966300
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/Localizable.strings
+c000000004B9582AE00000000000009E7
+t1268089518
+s2535
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib
+c000000004BB2259C00000000000000AA
+t1269966236
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/Localizable.strings
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib
+c000000004B65224E0000000000000066
+t1264919118
+s102
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/zh-Hant
+c000000004B63179900000000000000AA
+t1264785305
+s170
+
+N/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/zh_TW
+c000000004B6317B100000000000000AA
+t1264785329
+s170
+
+NInfo.plist
+c000000004BB2E2E00000000000000392
+t1270014688
+s914
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291707488#291707488#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/ITObserver.o" "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291707494.581627
+e291707497.422451
+r1
+xCompileC
+xbuild/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/ITObserver.o
+x/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m291707494#291707497#0(0"0(0#0#52"/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m4300882208#1001"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Get Lyrical.hmap" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Release/include" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources/i386" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources" -c "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/ITObserver.o"0#
+
+CCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/main.o" "/Users/chris/Code/Get Lyrical svn/trunk/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291707493.386990
+e291707494.581383
+r1
+xCompileC
+xbuild/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/main.o
+x/Users/chris/Code/Get Lyrical svn/trunk/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/chris/Code/Get Lyrical svn/trunk/main.m291707493#291707494#0(0"0(0#0#46"/Users/chris/Code/Get Lyrical svn/trunk/main.m4300882208#989"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Get Lyrical.hmap" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Release/include" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources/i386" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources" -c "/Users/chris/Code/Get Lyrical svn/trunk/main.m" -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/ITObserver.o" "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s291707492.510722
+e291707497.421141
+r1
+xCompileC
+xbuild/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/ITObserver.o
+x/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m291707492#291707497#0(0"0(0#0#52"/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m4300882208#995"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Get Lyrical.hmap" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Release/include" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources/ppc" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources" -c "/Users/chris/Code/Get Lyrical svn/trunk/ITObserver.m" -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/ITObserver.o"0#
+
+CCompileC "build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/main.o" "/Users/chris/Code/Get Lyrical svn/trunk/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s291707492.509572
+e291707493.386795
+r1
+xCompileC
+xbuild/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/main.o
+x/Users/chris/Code/Get Lyrical svn/trunk/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/chris/Code/Get Lyrical svn/trunk/main.m291707492#291707493#0(0"0(0#0#46"/Users/chris/Code/Get Lyrical svn/trunk/main.m4300882208#983"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Get Lyrical.hmap" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Release/include" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources/ppc" "-I/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources" -c "/Users/chris/Code/Get Lyrical svn/trunk/main.m" -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/main.o"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s291707491.349824
+e291707492.163109
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings291707491#291707492#0(0"0(0#0#71"/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/InfoPlist.strings4300882208#378"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s291707492.166461
+e291707492.245190
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#73"/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/Localizable.strings4300882208#379"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/Localizable.strings" French.lproj/Localizable.strings
+s291707492.313687
+e291707492.391524
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/Localizable.strings
+xFrench.lproj/Localizable.strings
+lSLF07#2@37"Copy French.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#72"/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/Localizable.strings4300882208#377"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 French.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/Localizable.strings" German.lproj/Localizable.strings
+s291707492.245311
+e291707492.303787
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/Localizable.strings
+xGerman.lproj/Localizable.strings
+lSLF07#2@37"Copy German.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#72"/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/Localizable.strings4300882208#377"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 German.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/Localizable.strings" Italian.lproj/Localizable.strings
+s291707492.260079
+e291707492.313570
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/Localizable.strings
+xItalian.lproj/Localizable.strings
+lSLF07#2@38"Copy Italian.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#73"/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/Localizable.strings4300882208#379"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Italian.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+s291707492.303906
+e291707492.366994
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#73"/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/Localizable.strings4300882208#379"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Spanish.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/Localizable.strings" nl.lproj/Localizable.strings
+s291707492.432113
+e291707492.500620
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/Localizable.strings
+xnl.lproj/Localizable.strings
+lSLF07#2@33"Copy nl.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#68"/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/Localizable.strings4300882208#369"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 nl.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/Localizable.strings" pt-BR.lproj/Localizable.strings
+s291707492.417312
+e291707492.477017
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/Localizable.strings
+xpt-BR.lproj/Localizable.strings
+lSLF07#2@36"Copy pt-BR.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#71"/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/Localizable.strings4300882208#375"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 pt-BR.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj/Localizable.strings" ro.lproj/Localizable.strings
+s289821846.304228
+e289821846.342428
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj/Localizable.strings
+xro.lproj/Localizable.strings
+lSLF07#2@33"Copy ro.lproj/Localizable.strings289821846#289821846#0(0"0(0#0#68"/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/Localizable.strings4300882208#369"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 ro.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/Localizable.strings" zh-Hans.lproj/Localizable.strings
+s291707492.391644
+e291707492.431984
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/Localizable.strings
+xzh-Hans.lproj/Localizable.strings
+lSLF07#2@38"Copy zh-Hans.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#73"/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/Localizable.strings4300882208#379"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 zh-Hans.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/Localizable.strings" zh-Hant.lproj/Localizable.strings
+s291707492.367118
+e291707492.417069
+r1
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/Localizable.strings
+xzh-Hant.lproj/Localizable.strings
+lSLF07#2@38"Copy zh-Hant.lproj/Localizable.strings291707492#291707492#0(0"0(0#0#73"/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/Localizable.strings4300882208#379"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 zh-Hant.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj"0#
+
+CCopyStringsFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/Localizable.strings" zh_TW.lproj/Localizable.strings
+s286612028.493383
+e286612029.182165
+r0
+xCopyStringsFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/Localizable.strings
+xzh_TW.lproj/Localizable.strings
+ozh_TW.lproj/Localizable.strings: No such file or directory 
+lSLF07#2@36"Copy zh_TW.lproj/Localizable.strings286612028#286612029#0(181"zh_TW.lproj/Localizable.strings: No such file or directory Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 11(4@120"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1286612029#18446744073709551615#0#0(1@0"0(0#0#71"/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/Localizable.strings4300882208#375"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 zh_TW.lproj/Localizable.strings --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj"1#
+
+CCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/green.tif" green.tif
+s291707491.586395
+e291707492.072465
+r1
+xCopyTiffFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/green.tif
+xgreen.tif
+lSLF07#2@14"Copy green.tif291707491#291707492#0(0"0(0#0#49"/Users/chris/Code/Get Lyrical svn/trunk/green.tif4300882208#249"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff green.tif --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/red.tif" red.tif
+s291707492.072615
+e291707492.118415
+r1
+xCopyTiffFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/red.tif
+xred.tif
+lSLF07#2@12"Copy red.tif291707492#291707492#0(0"0(0#0#47"/Users/chris/Code/Get Lyrical svn/trunk/red.tif4300882208#247"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff red.tif --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/yellow.tif" yellow.tif
+s291707492.118668
+e291707492.177873
+r1
+xCopyTiffFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/yellow.tif
+xyellow.tif
+lSLF07#2@15"Copy yellow.tif291707492#291707492#0(0"0(0#0#50"/Users/chris/Code/Get Lyrical svn/trunk/yellow.tif4300882208#250"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff yellow.tif --outdir "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/Credits.rtf" Credits.rtf
+s291707492.164447
+e291707492.259957
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/Credits.rtf
+xCredits.rtf
+lSLF07#2@16"Copy Credits.rtf291707492#291707492#0(0"0(0#0#51"/Users/chris/Code/Get Lyrical svn/trunk/Credits.rtf4300882208#363"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/Credits.rtf" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/go.php" go.php
+s291707491.583213
+e291707491.874329
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/go.php
+xgo.php
+lSLF07#2@11"Copy go.php291707491#291707491#0(0"0(0#0#46"/Users/chris/Code/Get Lyrical svn/trunk/go.php4300882208#358"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/go.php" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/icon.icns" icon.icns
+s291707491.585085
+e291707492.040914
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns291707491#291707492#0(0"0(0#0#49"/Users/chris/Code/Get Lyrical svn/trunk/icon.icns4300882208#361"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/icon.icns" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/logo base trim.png" "logo base trim.png"
+s291707491.581293
+e291707491.862249
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/logo base trim.png
+xlogo base trim.png
+lSLF07#2@23"Copy logo base trim.png291707491#291707491#0(0"0(0#0#58"/Users/chris/Code/Get Lyrical svn/trunk/logo base trim.png4300882208#370"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/logo base trim.png" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/logo base.png" "logo base.png"
+s291707491.579731
+e291707491.873114
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/logo base.png
+xlogo base.png
+lSLF07#2@18"Copy logo base.png291707491#291707491#0(0"0(0#0#53"/Users/chris/Code/Get Lyrical svn/trunk/logo base.png4300882208#365"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/logo base.png" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/new gl icon - no transp.icns" "new gl icon - no transp.icns"
+s291707492.477941
+e291707492.509465
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/new gl icon - no transp.icns
+xnew gl icon - no transp.icns
+lSLF07#2@33"Copy new gl icon - no transp.icns291707492#291707492#0(0"0(0#0#68"/Users/chris/Code/Get Lyrical svn/trunk/new gl icon - no transp.icns4300882208#380"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/new gl icon - no transp.icns" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/new gl icon.icns" "new gl icon.icns"
+s291707492.477148
+e291707492.507334
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/new gl icon.icns
+xnew gl icon.icns
+lSLF07#2@21"Copy new gl icon.icns291707492#291707492#0(0"0(0#0#56"/Users/chris/Code/Get Lyrical svn/trunk/new gl icon.icns4300882208#368"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/new gl icon.icns" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/textedit.png" textedit.png
+s291707492.163262
+e291707492.216930
+r1
+xCpResource
+xbuild/Release/Get Lyrical.app/Contents/Resources/textedit.png
+xtextedit.png
+lSLF07#2@17"Copy textedit.png291707492#291707492#0(0"0(0#0#52"/Users/chris/Code/Get Lyrical svn/trunk/textedit.png4300882208#364"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Code/Get Lyrical svn/trunk/textedit.png" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources"0#
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/zh-Hant" zh_TW.lproj/zh-Hant
+r0
+
+CCpResource "build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/zh_TW" zh_TW.lproj/zh_TW
+r0
+
+CCreateUniversalBinary "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical" normal "ppc i386"
+s291707498.236859
+e291707498.274862
+r1
+xCreateUniversalBinary
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical
+xnormal
+xppc i386
+lSLF07#2@98"CreateUniversalBinary "build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical" normal "ppc i386"291707498#291707498#0(0"0(0#0#48"/Users/chris/Code/Get Lyrical svn/trunk/ppc i3864300882208#429"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /usr/bin/lipo -create "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical" "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical" -output "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical"0#
+
+CGenerateDSYMFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app.dSYM" "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical"
+s291707498.275028
+e291707498.346886
+r1
+xGenerateDSYMFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app.dSYM
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical
+lSLF07#2@112"GenerateDSYMFile "build/Release/Get Lyrical.app.dSYM" "build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical"291707498#291707498#0(0"0(0#0#96"/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical4300882208#260"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/dsymutil "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/MacOS/Get Lyrical" -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app.dSYM"0#
+
+CLd "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical" normal i386
+s291707497.422535
+e291707498.236753
+r1
+xLd
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical
+xnormal
+xi386
+lSLF07#2@126"Link /Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical291707497#291707498#0(0"0(0#0#0"4300882208#632"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" -filelist "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical"0#
+
+CLd "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical" normal ppc
+s291707497.421353
+e291707498.235079
+r1
+xLd
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical
+xnormal
+xppc
+lSLF07#2@125"Link /Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical291707497#291707498#0(0"0(0#0#0"4300882208#629"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/chris/Code/Get Lyrical svn/trunk/build/Release" "-F/Users/chris/Code/Get Lyrical svn/trunk/build/Release" -filelist "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical"0#
+
+COSACompile "build/Release/Get Lyrical.app/Contents/Resources/Scripts/Get Lyrical.scpt" "Get Lyrical.applescript"
+s291707488.646426
+e291707489.371892
+r1
+xOSACompile
+xbuild/Release/Get Lyrical.app/Contents/Resources/Scripts/Get Lyrical.scpt
+xGet Lyrical.applescript
+lSLF07#2@31"Compile Get Lyrical.applescript291707488#291707489#0(0"0(0#0#63"/Users/chris/Code/Get Lyrical svn/trunk/Get Lyrical.applescript4300882208#363"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U "Get Lyrical.applescript" -x -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Scripts/Get Lyrical.scpt" "/Users/chris/Code/Get Lyrical svn/trunk/Get Lyrical.applescript"0#
+
+CPhaseScriptExecution "Run Script" "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Script-83F4C43E1093D47200DFB763.sh"
+s291707498.347017
+e291707498.538420
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Script-83F4C43E1093D47200DFB763.sh
+lSLF07#2@36"Run custom shell script 'Run Script'291707498#291707498#0(0"0(0#0#0"4300882208#16231"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER chris    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "ppc i386"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build"    setenv BUILD_ROOT "/Users/chris/Code/Get Lyrical svn/trunk/build"    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Release"    setenv CACHE_ROOT /var/folders/Og/OgGiqkGaET8-TmWyWKaNH++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Og/OgGiqkGaET8-TmWyWKaNH++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app"    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Og/OgGiqkGaET8-TmWyWKaNH++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Release"    setenv CONFIGURATION_TEMP_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release"    setenv CONTENTS_FOLDER_PATH "Get Lyrical.app/Contents"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT "/tmp/Get Lyrical.dst"    setenv DWARF_DSYM_FILE_NAME "Get Lyrical.app.dSYM"    setenv DWARF_DSYM_FOLDER_PATH "/Users/chris/Code/Get Lyrical svn/trunk/build/Release"    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "Get Lyrical.app/Contents/Executables"    setenv EXECUTABLE_FOLDER_PATH "Get Lyrical.app/Contents/MacOS"    setenv EXECUTABLE_NAME "Get Lyrical"    setenv EXECUTABLE_PATH "Get Lyrical.app/Contents/MacOS/Get Lyrical"    setenv FILE_LIST "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH "Get Lyrical.app/Contents/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/chris/Code/Get Lyrical svn/trunk/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "Get Lyrical.app"    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/chris/Code/Get Lyrical svn/trunk/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH "Get Lyrical.app/Contents/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR "/tmp/Get Lyrical.dst/Users/chris/Applications"    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER chris    setenv INSTALL_PATH /Users/chris/Applications    setenv INSTALL_ROOT "/tmp/Get Lyrical.dst"    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "Get Lyrical.app/Contents/Resources/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Get Lyrical-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/chris/Code/Get Lyrical svn/trunk/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/i386/Get Lyrical.LinkFileList"    setenv LINK_FILE_LIST_normal_ppc "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal/ppc/Get Lyrical.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Objects-normal"    setenv OBJROOT "/Users/chris/Code/Get Lyrical svn/trunk/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_OSAFLAGS -x    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "Get Lyrical.app/Contents/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/PkgInfo"    setenv PKGINFO_PATH "Get Lyrical.app/Contents/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH "Get Lyrical.app/Contents/PlugIns"    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "Get Lyrical.app/Contents/PrivateHeaders"    setenv PRODUCT_NAME "Get Lyrical"    setenv PRODUCT_SETTINGS_PATH "/Users/chris/Code/Get Lyrical svn/trunk/Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT "Get Lyrical"    setenv PROJECT_DERIVED_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/DerivedSources"    setenv PROJECT_DIR "/Users/chris/Code/Get Lyrical svn/trunk"    setenv PROJECT_FILE_PATH "/Users/chris/Code/Get Lyrical svn/trunk/Get Lyrical.xcodeproj"    setenv PROJECT_NAME "Get Lyrical"    setenv PROJECT_TEMP_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build"    setenv PUBLIC_HEADERS_FOLDER_PATH "Get Lyrical.app/Contents/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/chris/Code/Get Lyrical svn/trunk/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "Get Lyrical.app/Contents/Resources/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_NAME macosx10.5    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH "Get Lyrical.app/Contents/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/Og/OgGiqkGaET8-TmWyWKaNH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "Get Lyrical.app/Contents/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/chris/Code/Get Lyrical svn/trunk"    setenv SRCROOT "/Users/chris/Code/Get Lyrical svn/trunk"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/SymbolRepositories"    setenv SYMROOT "/Users/chris/Code/Get Lyrical svn/trunk/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME "Get Lyrical"    setenv TARGET_BUILD_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Release"    setenv TARGET_NAME "Get Lyrical"    setenv TARGET_TEMP_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build"    setenv TEMP_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build"    setenv TEMP_FILES_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build"    setenv TEMP_FILE_DIR "/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build"    setenv TEMP_ROOT "/Users/chris/Code/Get Lyrical svn/trunk/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "Get Lyrical.app/Contents/Resources"    setenv UNSTRIPPED_PRODUCT NO    setenv USER chris    setenv USER_APPS_DIR /Users/chris/Applications    setenv USER_LIBRARY_DIR /Users/chris/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "armv6 i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "Get Lyrical.app/Contents/version.plist"    setenv VERSION_INFO_BUILDER chris    setenv VERSION_INFO_FILE "Get Lyrical_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Get Lyrical  PROJECT:Get Lyrical-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "Get Lyrical.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/chris/Code/Get Lyrical svn/trunk/build/Get Lyrical.build/Release/Get Lyrical.build/Script-83F4C43E1093D47200DFB763.sh\""0#
+
+CProcessInfoPlistFile "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Info.plist" Info.plist
+s291707488.630850
+e291707488.646261
+r1
+xProcessInfoPlistFile
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist291707488#291707488#0(0"0(0#0#50"/Users/chris/Code/Get Lyrical svn/trunk/Info.plist7074991661783348224#323"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Info.plist"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib"
+s291707489.372013
+e291707490.640204
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib291707489#291707490#0(0"0(0#0#66"/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib4300882208#310"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/English.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib"
+s291707490.851169
+e291707491.108237
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB French.lproj/MainMenu.nib291707490#291707491#0(0"0(0#0#65"/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib4300882208#308"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/French.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/French.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib"
+s291707489.373185
+e291707490.605712
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB German.lproj/MainMenu.nib291707489#291707490#0(0"0(0#0#65"/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib4300882208#308"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/German.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/German.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib"
+s291707490.605933
+e291707490.851038
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Italian.lproj/MainMenu.nib291707490#291707490#0(0"0(0#0#66"/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib4300882208#310"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Italian.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/Italian.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib"
+s291707490.640341
+e291707490.860079
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Spanish.lproj/MainMenu.nib291707490#291707490#0(0"0(0#0#66"/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib4300882208#310"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/Spanish.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/Spanish.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib"
+s291707491.337404
+e291707491.579573
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib
+lSLF07#2@30"StripNIB nl.lproj/MainMenu.nib291707491#291707491#0(0"0(0#0#61"/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib4300882208#300"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/nl.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/nl.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib"
+s291707491.117721
+e291707491.349693
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib
+lSLF07#2@33"StripNIB pt-BR.lproj/MainMenu.nib291707491#291707491#0(0"0(0#0#64"/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib4300882208#306"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/pt-BR.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/pt-BR.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/MainMenu.nib"
+s289821844.670799
+e289821845.268337
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/MainMenu.nib
+lSLF07#2@30"StripNIB ro.lproj/MainMenu.nib289821844#289821845#0(0"0(0#0#61"/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/MainMenu.nib29555362188820556#300"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/ro.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/ro.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib"
+s291707491.108372
+e291707491.337271
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB zh-Hans.lproj/MainMenu.nib291707491#291707491#0(0"0(0#0#66"/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib4300882208#310"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hans.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hans.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib"
+s291707490.860199
+e291707491.117602
+r1
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB zh-Hant.lproj/MainMenu.nib291707490#291707491#0(0"0(0#0#66"/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib4300882208#310"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh-Hant.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/zh-Hant.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib"
+s286612027.739341
+e286612028.687839
+r0
+xStripNIB
+x/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib
+o/* com.apple.ibtool.errors */
+o/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib: error: ibtool could not strip "MainMenu.nib" because it is not a valid Interface Builder document.
+lSLF07#2@33"StripNIB zh_TW.lproj/MainMenu.nib286612027#286612028#0(195"/* com.apple.ibtool.errors *//Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib: error: ibtool could not strip "MainMenu.nib" because it is not a valid Interface Builder document.1(4@91"ibtool could not strip "MainMenu.nib" because it is not a valid Interface Builder document.286612028#18446744073709551615#0#0(6@64"/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib286611918#0#0#0#0#0"0(0#0#64"/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib29555362188820556#306"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /Developer/usr/bin/ibtool --strip "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app/Contents/Resources/zh_TW.lproj/MainMenu.nib" --output-format human-readable-text "/Users/chris/Code/Get Lyrical svn/trunk/zh_TW.lproj/MainMenu.nib"1#
+
+CTouch "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app"
+s291707498.538526
+e291707498.596477
+r1
+xTouch
+x/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app
+lSLF07#2@75"Touch /Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app291707498#291707498#0(0"0(0#0#0"4300882208#143"    cd "/Users/chris/Code/Get Lyrical svn/trunk"    /usr/bin/touch -c "/Users/chris/Code/Get Lyrical svn/trunk/build/Release/Get Lyrical.app"0#
+

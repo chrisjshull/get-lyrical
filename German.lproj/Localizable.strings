@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "Liedtexte nicht gefunden"; /* the playlist name for not found lyrics */
+"of" = "von";
+"Done! Found: " = "Fertig! Gefunden: ";
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Auswahl";
+"Active" = "Aktiv"; 
+"Current" = "Aktuell";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Liedtext";
+"No" = "Nein";
+"Yes" = "Ja";
+"OK" = "OK";
+"No tracks selected..." = "Kein Titel ausgewählt...";
+"Would you like to overwrite any existing lyrics?" = "Möchten Sie die bestehenden Liedtexte überschreiben?";
+"No tracks selected or playing." = "Es wird weder einen Titel abgespielt noch wurde einer ausgewählt.";
+"No tracks playing..." = "Kein Titel wird abgespielt...";
+"No track in HUD..." = "Kein Titel im HUD...";
+"No track playing." = "Kein Titel wird abgespielt.";
+"No track selected (or you have more than one track selected)." = "Kein Titel ausgewählt (oder mehr als ein Titel ausgewählt).";
+"Not up to date (current version: " = "Nicht am aktuellsten Stand (momentane Version: ";
+"latest version: " = "neueste Version: ";
+"Update now?" = "Jetzt aktualisieren?";
+"Not Yet" = "Noch nicht";
+"Get Update" = "Jetzt aktualisieren";
+"You are up to date (version: " = "Sie sind auf dem neuesten Stand (version: ";
+
+
+"Edit" = "Bearbeiten"; /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Sichern"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "Version konnte nicht überprüft werden. Besteht eine Verbindung zum Internet? Sehen Sie auch auf http://shullian.com nach.";

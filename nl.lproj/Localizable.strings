@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   Get Lyrical
+
+   Created by Christopher John Shull on 10/24/09.
+   Copyright 2009 Shullian Productions, LLC. All rights reserved.
+ */
+
+"Lyrics Not Found" = "Lyrics niet gevonden"; /* the playlist name for not found lyrics */
+"of" = "van";
+"Done! Found: " = "Klaar! Gevonden: ";
+	/* the following describe what the lyrics window is showing */
+"Selection" = "Selectie";
+"Active" = "Actief"; 
+"Current" = "Huidige";
+"HUD" = "HUD"; /* this stands for Heads Up Display - this is used if the lyrics window is acting on it's own, not tied to any of the above */
+
+"Lyrics" = "Lyrics";
+"No" = "Nee";
+"Yes" = "Ja";
+"OK" = "OK";
+"No tracks selected..." = "Geen nummers geselecteerd...";
+"Would you like to overwrite any existing lyrics?" = "Wil je de bestaande lyrics overschrijven?";
+"No tracks selected or playing." = "Er is geen spelend of geselecteerd number.";
+"No tracks playing..." = "Er wordt geen nummer afgespeeld...";
+"No track in HUD..." = "Er staat geen nummer in HUD...";
+"No track playing." = "Er wordt geen nummer afgespeeld.";
+"No track selected (or you have more than one track selected)." = "Er is geen nummer geselecteerd (of je hebt meer dan één nummer geselecteerd).";
+"Not up to date (current version: " = "Niet up to date (huidige versie: ";
+"latest version: " = "nieuwste versie: ";
+"Update now?" = "Nu updaten?";
+"Not Yet" = "Nog niet";
+"Get Update" = "Updaten";
+"You are up to date (version: " = "Je bent up to date (versie: ";
+
+
+"Edit" = "Wijzig"; /* Text for the Edit button - must match the edit button in the nib */
+"Save" = "Bewaar"; /* Text for the Save button */
+
+"Unable to check version. Do you have an internet connection? You can also check http://shullian.com." = "De versie kon niet worden gecontroleerd. Ben je verbonden met het internet? Je kunt ook http://shullian.com controleren.";
